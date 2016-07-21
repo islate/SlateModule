@@ -3,11 +3,11 @@ Pod::Spec.new do |s|
 
   s.name         = "SlateModule"
   s.version      = "3.4.2.1"
-  s.summary      = "SlateModule"
+  s.summary      = "Split UIAppDelegate into modules."
 
 
   s.description  = <<-DESC
-       SlateConstants   
+       Divide UIAppDelegate into modules.   
   
                    DESC
 
@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.license      = "Apache 2.0"
   s.author       = { "linyize" => "linyize@gmail.com" }
   s.platform     = :ios, "7.0"
-  s.source       = { :git => "https://github.com/islate/SlateModule.git", :branch => "master" }
+  s.source       = { :git => "https://github.com/islate/SlateModule.git", :tag => s.version.to_s }
 
   s.source_files = 'SlateModule/*.{h,m}'
 
